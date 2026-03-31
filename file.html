@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>M. — UI/UX Designer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="logo">M<em>.</em></div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#work" onclick="closeMenu()">Work</a></li>
+      <li><a href="#process" onclick="closeMenu()">Process</a></li>
+      <li><a href="#about" onclick="closeMenu()">About</a></li>
+      <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Hire Me</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-tag">Available for Work</div>
+      <h1>Design<br/>that<br/><em>speaks</em><br/><span class="outline">louder.</span></h1>
+      <p class="hero-desc">
+        UI/UX Designer turning complex problems into clean, intuitive experiences.
+        I craft interfaces that look stunning and feel effortless.
+      </p>
+      <div class="hero-btns">
+        <a href="#work" class="btn-primary">View My Work →</a>
+        <a href="#contact" class="btn-ghost">Let's Talk</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">3<em>+</em></div>
+          <div class="stat-label">Projects shipped</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">2<em>+</em></div>
+          <div class="stat-label">Years designing</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">∞</div>
+          <div class="stat-label">Pixels perfected</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="fc fc-tl">
+        <div class="fc-tag">AR Experience</div>
+        TryAura App
+      </div>
+      <div class="phone">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          <div class="ps-top">
+            <div class="ps-av"></div>
+            <div class="ps-nm">TryAura · AR Try-On</div>
+          </div>
+          <div class="ps-hero">
+            <div class="ps-hero-circle">👗</div>
+            <div class="ps-hero-label">AR Mode</div>
+          </div>
+          <div class="ps-row">
+            <div class="ps-chip hi">Tops</div>
+            <div class="ps-chip">Dresses</div>
+            <div class="ps-chip">Shoes</div>
+          </div>
+          <div class="ps-row">
+            <div class="ps-chip wide">Saved Looks (4)</div>
+            <div class="ps-chip hi">Cart</div>
+          </div>
+          <div class="ps-bottom">
+            <div class="dot on"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+      </div>
+      <div class="fc fc-br">
+        <div class="fc-tag">Redesign</div>
+        RedBus UX
+      </div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee">
+      <span class="m-item">UI Design<em>✦</em></span>
+      <span class="m-item">UX Research<em>✦</em></span>
+      <span class="m-item">Prototyping<em>✦</em></span>
+      <span class="m-item">Figma<em>✦</em></span>
+      <span class="m-item">Adobe XD<em>✦</em></span>
+      <span class="m-item">Wireframing<em>✦</em></span>
+      <span class="m-item">Design Systems<em>✦</em></span>
+      <span class="m-item">Mobile-First<em>✦</em></span>
+      <span class="m-item">Branding<em>✦</em></span>
+      <span class="m-item">AR Interfaces<em>✦</em></span>
+      <span class="m-item">UI Design<em>✦</em></span>
+      <span class="m-item">UX Research<em>✦</em></span>
+      <span class="m-item">Prototyping<em>✦</em></span>
+      <span class="m-item">Figma<em>✦</em></span>
+      <span class="m-item">Adobe XD<em>✦</em></span>
+      <span class="m-item">Wireframing<em>✦</em></span>
+      <span class="m-item">Design Systems<em>✦</em></span>
+      <span class="m-item">Mobile-First<em>✦</em></span>
+      <span class="m-item">Branding<em>✦</em></span>
+      <span class="m-item">AR Interfaces<em>✦</em></span>
+    </div>
+  </div>
+
+  <!-- WORK -->
+  <section id="work">
+    <div class="slabel">Selected Work</div>
+    <h2>Things I've <em>built</em></h2>
+    <p class="sub">A curated set of projects — AR experiences, app redesigns, and brand identities.</p>
+    <div class="proj-grid reveal">
+
+      <div class="pcard featured">
+        <div class="pthumb pt-aura">
+          <div class="pthumb-label">Mobile App · AR</div>
+          <span class="pthumb-icon">👗</span>
+        </div>
+        <div class="pbody">
+          <div class="ptitle">TryAura — AR Outfit Try-On</div>
+          <p class="pdesc">An augmented reality mobile app that lets users virtually try on outfits before buying. Designed end-to-end from user research to high-fidelity prototypes — focused on reducing return rates and boosting purchase confidence.</p>
+          <div class="ptags">
+            <span class="ptag">UX Research</span>
+            <span class="ptag">Mobile UI</span>
+            <span class="ptag">AR/VR</span>
+            <span class="ptag">Figma</span>
+            <span class="ptag">Prototyping</span>
+          </div>
+        </div>
+        <a href="https://www.behance.net/gallery/224216441/TRYAURA-Where-Fashion-Meets-AR-%28UI-Design%29" target="_blank" class="parrow">↗</a>
+      </div>
+
+      <div class="pcard">
+        <div class="pthumb pt-red">
+          <div class="pthumb-label">App Redesign</div>
+          <span class="pthumb-icon">🚌</span>
+        </div>
+        <div class="pbody">
+          <div class="ptitle">RedBus — UX Redesign</div>
+          <p class="pdesc">A comprehensive redesign simplifying the booking flow and improving accessibility across all user groups.</p>
+          <div class="ptags">
+            <span class="ptag">Redesign</span>
+            <span class="ptag">Usability</span>
+            <span class="ptag">Adobe XD</span>
+          </div>
+        </div>
+        <a href="https://www.behance.net/gallery/224158573/RedBus-Mobile-UI-Redesign" target="_blank" class="parrow">↗</a>
+      </div>
+
+      <div class="pcard">
+        <div class="pthumb pt-gfg">
+          <div class="pthumb-label">Web App · Case Study</div>
+          <span class="pthumb-icon">💚</span>
+        </div>
+        <div class="pbody">
+          <div class="ptitle">Time Capsule — Seal Memories</div>
+          <p class="pdesc">A digital time capsule web app letting users lock away memories, letters, and media to be opened at a future date. Full UX case study covering research, user flows, and high-fidelity UI.</p>
+          <div class="ptags">
+            <span class="ptag">UI/UX</span>
+            <span class="ptag">Web Design</span>
+            <span class="ptag">Case Study</span>
+            <span class="ptag">Figma</span>
+          </div>
+        </div>
+        <a href="https://www.behance.net/gallery/224814233/TIME-CAPSULE-Seal-Memories" target="_blank" class="parrow">↗</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="proc-bg" id="process">
+    <div class="slabel light">How I Work</div>
+    <h2 class="light">My design <em>process</em></h2>
+    <p class="sub light">Every great product starts with understanding people — not pixels.</p>
+    <div class="proc-grid reveal">
+      <div class="pstep">
+        <div class="snum">01</div>
+        <div class="sicon">🔍</div>
+        <div class="sname">Discover</div>
+        <p class="sdesc">User interviews, competitor audits, heuristic evaluations. I dig deep before I sketch anything.</p>
+      </div>
+      <div class="pstep">
+        <div class="snum">02</div>
+        <div class="sicon">✏️</div>
+        <div class="sname">Define</div>
+        <p class="sdesc">Synthesize research into personas, journey maps, and a clear problem statement.</p>
+      </div>
+      <div class="pstep">
+        <div class="snum">03</div>
+        <div class="sicon">⚡</div>
+        <div class="sname">Design</div>
+        <p class="sdesc">From lo-fi wireframes to polished, interactive prototypes in Figma or Adobe XD.</p>
+      </div>
+      <div class="pstep">
+        <div class="snum">04</div>
+        <div class="sicon">🚀</div>
+        <div class="sname">Deliver</div>
+        <p class="sdesc">Developer handoff with annotated specs, design tokens, and component libraries.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="slabel">Toolkit</div>
+    <h2>Skills & <em>Tools</em></h2>
+    <div class="skills-grid reveal" id="sk-wrap">
+      <div class="sk">
+        <div class="sk-top"><span class="sk-name">Figma</span><span class="sk-pct">95%</span></div>
+        <div class="sk-track"><div class="sk-fill" data-w="95"></div></div>
+      </div>
+      <div class="sk">
+        <div class="sk-top"><span class="sk-name">Adobe XD</span><span class="sk-pct">88%</span></div>
+        <div class="sk-track"><div class="sk-fill" data-w="88"></div></div>
+      </div>
+      <div class="sk">
+        <div class="sk-top"><span class="sk-name">UX Research</span><span class="sk-pct">82%</span></div>
+        <div class="sk-track"><div class="sk-fill" data-w="82"></div></div>
+      </div>
+      <div class="sk">
+        <div class="sk-top"><span class="sk-name">Wireframing</span><span class="sk-pct">90%</span></div>
+        <div class="sk-track"><div class="sk-fill" data-w="90"></div></div>
+      </div>
+      <div class="sk">
+        <div class="sk-top"><span class="sk-name">Prototyping</span><span class="sk-pct">87%</span></div>
+        <div class="sk-track"><div class="sk-fill" data-w="87"></div></div>
+      </div>
+      <div class="sk">
+        <div class="sk-top"><span class="sk-name">Visual Design</span><span class="sk-pct">80%</span></div>
+        <div class="sk-track"><div class="sk-fill" data-w="80"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-grid reveal">
+      <div class="about-img">
+        <img src="image/mona.jpg" alt="Monika">
+        <div class="about-badge"><em>✦</em> UI/UX Designer · Indore</div>
+      </div>
+      <div class="about-text">
+        <div class="slabel">About Me</div>
+        <h2>A designer who thinks in <em>flows</em>, not just frames.</h2>
+        <p>I'm a fresh UI/UX designer with a B.Tech from MITS Gwalior (2025). I build interfaces that don't just look good — they solve real problems for real people.</p>
+        <p>From AR try-on apps to bus booking redesigns, I've worked across domains with one constant: putting the user first. Currently hunting for my first full-time role at a startup or product company where design actually matters.</p>
+        <div class="tools">
+          <span class="tpill">Figma</span>
+          <span class="tpill">Adobe XD</span>
+          <span class="tpill">Behance</span>
+          <span class="tpill">Canva</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-bg">
+    <div class="contact-left reveal">
+      <div class="slabel">Get In Touch</div>
+      <h2>Let's build something <em>great.</em></h2>
+      <p class="sub">Open to full-time UI/UX roles, freelance, and design collabs. Drop me a message — I reply fast.</p>
+      <div class="social-row">
+        <a class="soc" href="https://www.behance.net/monikasankhla2" target="_blank" title="Behance">Be</a>
+        <a class="soc" href="https://www.linkedin.com/in/monika-sankhla?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" title="LinkedIn">in</a>
+        <a class="soc" href="mailto:sankhlamonika2003@gmail.com" title="Email">@</a>
+      </div>
+      <a href="mailto:sankhlamonika2003@gmail.com" class="contact-cta">Say Hello →</a>
+    </div>
+    <div class="form-col reveal">
+      <div class="fg">
+        <label class="fl">Name</label>
+        <input class="fi" type="text" placeholder="Your name" />
+      </div>
+      <div class="fg">
+        <label class="fl">Email</label>
+        <input class="fi" type="email" placeholder="your@email.com" />
+      </div>
+      <div class="fg">
+        <label class="fl">Message</label>
+        <textarea class="fta" placeholder="Tell me about your project..."></textarea>
+      </div>
+      <button class="fbtn">Send Message →</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="logo">M<em>.</em></div>
+    <div>Designed with care · 2026</div>
+    <div>Available for hire </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
